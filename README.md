@@ -1,6 +1,6 @@
 # Mirador Playground
 
-This application is small React.js codebase that serves a contained environment for testing IIIF via a Mirador 3.0.0 viewer. To run, you'll just need current versions `npm` (Node.js) and `yarn`. 
+This application is a small React.js codebase that serves a contained environment for testing IIIF via a Mirador 3.0.0 viewer. To run, you'll just need current versions `npm` (Node.js) and `yarn`. 
 
 ## Playing
 
@@ -16,13 +16,6 @@ this.state = {
     manifest: 'http://localhost:8080/iiif/manifest/sound.json',
 };
 ```
-
-## Features
-
-- React 16
-- Webpack 5
-- Babel 7
-- Mirador 3
 
 ## Requirements
 
