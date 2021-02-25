@@ -23,6 +23,8 @@ class App extends Component {
               sideBarPanel: 'info',
               hideWindowTitle: true,
               sideBarOpen: true,
+              highlightAllAnnotations: true,
+              forceDrawAnnotations: true,
             },
             windows: [
               {
