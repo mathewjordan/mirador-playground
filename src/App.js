@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Mirador from './components/Mirador';
 
-// config
-// https://github.com/ProjectMirador/mirador/blob/master/src/config/settings.js
-
 class App extends Component {
   constructor(props) {
     super(props);
@@ -13,8 +10,6 @@ class App extends Component {
   }
 
   render() {
-    const { title } = this.props;
-
     return (
       <div className="container">
         <Mirador
@@ -29,7 +24,7 @@ class App extends Component {
             windows: [
               {
                 loadedManifest:
-                  'https://rfta.test/manifest/rfta_100.json',
+                  'http://localhost:8080/iiif/manifest/image.json',
               },
             ],
             workspaceControlPanel: {

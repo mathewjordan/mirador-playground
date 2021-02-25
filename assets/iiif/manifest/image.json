@@ -1,0 +1,58 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "http://localhost:8080/iiif/manifest/image.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Some children playing on the wreck of an Antonov Transport plane"
+    ]
+  },
+  "rights": "https://creativecommons.org/licenses/by-sa/4.0",
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Author"
+        ]
+      },
+      "value": {
+        "en": [
+          "Marco Gualazzini"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "South Sudan, Unity State. Yida refugee camp in South Sudanese territory, 20 km far from the border with Sudan. The camp hosts 68,000 refugees from the Nuba Mountains. For over two years now, Sudan’s government has waged a bombing campaign against the civilians it accuses of supporting the Nuban rebels. Cheap shrapnel bombs are dropped out of Antontov cargo planes nearly every day. The campaign caused terror to the people of the Nuba mountain range, forcing many to flee, and making it almost impossible for others to plant crops and tend their farms."
+    ]
+  },
+  "items": [
+    {
+      "id": "http://localhost:8080/iiif/manifest/image/canvas",
+      "type": "Canvas",
+      "height": 360,
+      "width": 640,
+      "items": [
+        {
+          "id": "http://localhost:8080/iiif/manifest/image/canvas/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:8080/iiif/manifest/image/canvas/page/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": [
+                {
+                  "id": "http://localhost:8080/item/playing_in_the_nuba_mountains.jpg",
+                  "type": "Image"
+                }
+              ],
+              "target": "http://localhost:8080/iiif/manifest/image/canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
