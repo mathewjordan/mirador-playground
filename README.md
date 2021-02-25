@@ -1,6 +1,6 @@
 # Mirador Playground
 
-This application is small React.js codebase that serves a contained environment for testing IIIF via a Mirador 3.0.0 viewer. To run, you'll just need current versions `npm` (Node.js) and `yarn`. 
+This application is a small React.js codebase that serves a contained environment for testing IIIF via a Mirador 3.0.0 viewer. To run, you'll just need current versions `npm` (Node.js) and `yarn`. 
 
 ## Playing
 
@@ -17,13 +17,6 @@ this.state = {
 };
 ```
 
-## Features
-
-- React 16
-- Webpack 5
-- Babel 7
-- Mirador 3
-
 ## Requirements
 
 - [Node.js](https://nodejs.org/en/)
@@ -31,7 +24,7 @@ this.state = {
 
 To run the React.js compile process for this application, you'll need a current version of the Yarn package manager.
 
-If you already have Node.js, you can install this:
+If you already have Node.js, you can install yarn quickly:
 ```
 npm install --global yarn
 ```
