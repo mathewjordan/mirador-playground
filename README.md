@@ -24,7 +24,7 @@ this.state = {
 
 To run the React.js compile process for this application, you'll need a current version of the Yarn package manager.
 
-If you already have Node.js, you can install this:
+If you already have Node.js, you can install yarn quickly:
 ```
 npm install --global yarn
 ```
