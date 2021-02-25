@@ -2,24 +2,32 @@
 <html lang="en-US">
 <head>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Libraries at University of Tennessee, Knoxville</title>
+  <title>Mirador Playground</title>
   <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-  <script async src="https://www.lib.utk.edu/assets/universal-header.js?v=1.0.3"></script>
   <style>
-    #mirador {
-      min-height: 60vh;
-      position: relative;
-      margin: 1em 0;
+
+    html {
+      margin: 0;
+      padding: 0;
     }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: rgb(220, 220, 220);
+    }
+
+    #mirador {
+      height: calc(100vh - 2em);
+      width: calc(100vw - 2em);
+      position: relative;
+      margin: 1em auto;
+    }
+
   </style>
 </head>
 <body>
-  <header id="utk-lib-header"
-          data-page-title="Page Title Here"
-          data-url="https://utklibrary.test/"
-          data-libchat="e98ae2539f2bd5d1659cc53d7de2812b"></header>
-  <main id="utk-mirador"></main>
-  <footer id="utk-lib-footer"></footer>
+  <main id="mirador-playground"></main>
 </body>
 </html>
