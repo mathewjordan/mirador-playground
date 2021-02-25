@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import Mirador from './components/Mirador';
 
 class App extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {};
+    this.state = {
+      manifest: 'http://localhost:8080/iiif/manifest/video.json',
+    };
   }
 
   render() {
+    const { manifest } = this.state;
+
     return (
       <div className="container">
         <Mirador
@@ -23,8 +26,7 @@ class App extends Component {
             },
             windows: [
               {
-                loadedManifest:
-                  'http://localhost:8080/iiif/manifest/image.json',
+                loadedManifest: manifest,
               },
             ],
             workspaceControlPanel: {
@@ -37,9 +39,5 @@ class App extends Component {
     );
   }
 }
-
-App.propTypes = {
-  title: PropTypes.string.isRequired,
-};
 
 export default App;
