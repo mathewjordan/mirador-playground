@@ -1,0 +1,218 @@
+{
+
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/rfta/manifest",
+  "type": "Manifest",
+
+  "label": {
+    "en": [
+      "mods:titleInfo[not(@type=\"alternative\")]/mods:title"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Alternative Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "mods:titleInfo[@type=\"alternative\"]/mods:title"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Publication Identifier"
+        ]
+      },
+      "value": {
+        "en": [
+          "utk_mods_publication_identifier_ms"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Table of Contents"
+        ]
+      },
+      "value": {
+        "en": [
+          "utk_mods_toc_ms"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ]
+      },
+      "value": {
+        "en": [
+          "utk_mods_originInfo_date_ms"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Publication Date"
+        ]
+      },
+      "value": {
+        "en": [
+          "utk_mods_originInfo_dateIssued_ms"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Form"
+        ]
+      },
+      "value": {
+        "en": [
+          "utk_mods_physicalDescription_form_ms"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Extent"
+        ]
+      },
+      "value": {
+        "en": [
+          "utk_mods_physicalDescription_extent_ms"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Topic"
+        ]
+      },
+      "value": {
+        "en": [
+          "utk_mods_subject_topic_ms[#]", "utk_mods_subject_topic_ms[#]"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Coverage"
+        ]
+      },
+      "value": {
+        "en": [
+          "utk_mods_geo_ms"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Time Period"
+        ]
+      },
+      "value": {
+        "en": [
+          "utk_mods_subject_temporal_ms"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "mods:abstract"
+    ]
+  },
+  "rights": "utk_mods_accessCondition_use_and_reproduction_ms",
+  "provider": [
+    {
+      "id": "https://example.org/about",
+      "type": "Agent",
+      "label": {
+        "en": [
+          "Example Organization"
+        ]
+      },
+      "homepage": [
+        {
+          "id": "https://example.org/",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Example Organization Homepage"
+            ]
+          },
+          "format": "text/html"
+        }
+      ],
+      "logo": [
+        {
+          "id": "https://example.org/service/inst1/full/max/0/default.png",
+          "type": "Image",
+          "format": "image/png",
+          "service": [
+            {
+              "id": "https://example.org/service/inst1",
+              "type": "ImageService3",
+              "profile": "level2"
+            }
+          ]
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://data.example.org/about/us.jsonld",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "profile": "https://schema.org/"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "http://localhost:8080/iiif/manifest/sound/canvas",
+      "type": "Canvas",
+      "height": 360,
+      "width": 640,
+      "duration": 219,
+      "items": [
+        {
+          "id": "http://localhost:8080/iiif/manifest/sound/canvas/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:8080/iiif/manifest/sound/canvas/page/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": [
+                {
+                  "id": "http://localhost:8080/item/Andrea_Ludden_2_6_17_RNC014.mp3",
+                  "type": "Video",
+                  "height": 360,
+                  "width": 640,
+                  "duration": 2350,
+                  "format": "audio/mpeg"
+                }
+              ],
+              "target": "http://localhost:8080/iiif/manifest/sound/canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

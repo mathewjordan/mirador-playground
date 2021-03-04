@@ -6,7 +6,7 @@ class App extends Component {
     super(props);
 
     this.state = {
-      manifest: 'http://localhost:8080/iiif/manifest/image.json',
+      manifest: 'http://localhost:8080/iiif/manifest/rfta.json',
     };
   }
 
@@ -25,6 +25,7 @@ class App extends Component {
               sideBarOpen: true,
               highlightAllAnnotations: true,
               forceDrawAnnotations: true,
+              defaultSidebarPanelWidth: 400,
             },
             windows: [
               {
