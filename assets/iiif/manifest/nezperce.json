@@ -1,0 +1,130 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "http://localhost:8080/iiif/manifest/nezperce.json",
+  "label": "Kamiah--Going to Church (a)",
+  "metadata": [
+    {
+      "label": "Identifier",
+      "value": "63-221-067a"
+    },
+    {
+      "label": "Title",
+      "value": "Kamiah--Going to Church (a)"
+    },
+    {
+      "label": "Description",
+      "value": "Eleven mounted riders, eight of them apparently making their way toward a building Jane Gay identified as the Kamiah First Presbyterian Church. The three riders facing away from the church appear to be men wearing western-style hats; all the other riders are women with scarves over their heads. The woman closest to the center of the image has a child dressed in a white pinafore mounted behind her. The landscape of this image is shrouded in mist or smoke. A split-rail fence divides the middle ground from the foreground in this image. Large pine trees are scattered in the field beyond the fence, and in the farther middle ground stand the poles of a tipi frame."
+    },
+    {
+      "label": "Subject (AAT)",
+      "value": "churches, Kamiah First Presbyterian; horses; Kamiah, Idaho ; Nez Perce men; Nez Perce women ; Nez Perce children ; tipis"
+    },
+    {
+      "label": "Date",
+      "value": "Nez Perce Reservation, Lewis County, Idaho, United States, http://www.geonames.org/5602119/nez-perce-reservation.html, 46.30764, -116.40774\r\n"
+    },
+    {
+      "label": "Rights Management",
+      "value": "Public Domain"
+    },
+    {
+      "label": "Reproduction and Use",
+      "value": "Required credit line: Photographer E. Jane Gay, courtesy Idaho State Historical Society, [image number]"
+    },
+    {
+      "label": "Publisher",
+      "value": "Idaho State Archives, a division of the Idaho State Historical Society"
+    },
+    {
+      "label": "Format",
+      "value": "image;tiff"
+    },
+    {
+      "label": "Type",
+      "value": "Image;StillImage"
+    },
+    {
+      "label": "Repository",
+      "value": "Idaho State Historical Society Digital Collections"
+    },
+    {
+      "label": "Source",
+      "value": "<span>From: <a href=\"https://idahohistory.contentdm.oclc.org/digital/collection/p16281coll20/id/34\">Kamiah--Going to Church (a)</a></span>"
+    }
+  ],
+  "attribution": [
+    "",
+    "Public Domain"
+  ],
+  "within": "http://localhost:8080/iiif/manifest/nezperce.json",
+  "sequences": [
+    {
+      "@id": "https://cdm16281.contentdm.oclc.org/digital/iiif/p16281coll20/34/sequence/s0",
+      "@type": "sc:Sequence",
+      "label": "Kamiah--Going to Church (a)",
+      "canvases": [
+        {
+          "@id": "https://cdm16281.contentdm.oclc.org/digital/iiif/p16281coll20/34/canvas/c0",
+          "@type": "sc:Canvas",
+          "label": "Kamiah--Going to Church (a)",
+          "images": [
+            {
+              "@id": "https://cdm16281.contentdm.oclc.org/digital/iiif/p16281coll20/34/annotation/a0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://cdm16281.contentdm.oclc.org/digital/iiif/p16281coll20/34/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://cdm16281.contentdm.oclc.org/digital/iiif/p16281coll20/34",
+                  "width": 9192,
+                  "height": 5632,
+                  "tiles": [
+                    {
+                      "width": 9192,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "protocol": "http://iiif.io/api/image"
+                },
+                "format": "image/jpeg",
+                "width": 9192,
+                "height": 5632
+              },
+              "on": "https://cdm16281.contentdm.oclc.org/digital/iiif/p16281coll20/34/canvas/c0"
+            }
+          ],
+          "width": 9192,
+          "height": 5632,
+          "otherContent": [
+            {
+              "@id": "http://localhost:8080/iiif/annotations/nezperce_annotate.json",
+              "@type": "sc:AnnotationList",
+              "label": "Going to Kamiah First Presbyterian Church."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "https://cdm16281.contentdm.oclc.org/digital/iiif/p16281coll20/34/range/r0",
+      "@type": "sc:Range",
+      "label": "Kamiah--Going to Church (a)",
+      "ranges": [],
+      "canvases": [
+        "https://cdm16281.contentdm.oclc.org/digital/iiif/p16281coll20/34/canvas/c0"
+      ]
+    }
+  ]
+}

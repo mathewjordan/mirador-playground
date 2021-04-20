@@ -1,0 +1,37 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8080/iiif/annotations/nezperce_annotate.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type" : "oa:FragmentSelector",
+        "format": "text/plain",
+        "chars": "One person on a horse, trotting away."
+      },
+      "on": "https://cdm16281.contentdm.oclc.org/digital/iiif/p16281coll20/34/canvas/c0#xywh=6442,3445,327,238"
+    },
+    {
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type" : "oa:FragmentSelector",
+        "format": "text/plain",
+        "chars": "Two people on a horse, in the mid ground sun."
+      },
+      "on": "https://cdm16281.contentdm.oclc.org/digital/iiif/p16281coll20/34/canvas/c0#xywh=5283,3453,327,238"
+    },
+    {
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource": {
+        "@type" : "oa:FragmentSelector",
+        "format": "text/plain",
+        "chars": "A large group heading to the church."
+      },
+      "on": "https://cdm16281.contentdm.oclc.org/digital/iiif/p16281coll20/34/canvas/c0#xywh=5784,2592,2616,1896"
+    }
+  ]
+}
