@@ -4,7 +4,7 @@ This application is a small React.js codebase that serves a contained environmen
 
 ## Playing
 
-- `yarn start`
+- `yarn && yarn start`
 - Open [http://localhost:8080](http://localhost:8080/) in your browser.
 
 In your your IDE, you can modify manifests at - Modify manifests at `./assets/iiif/manifest` and items at `./assets/item`. Content within `./assets` will be served to the root of the local development URL of http://localhost:8080.
