@@ -6,7 +6,7 @@ class App extends Component {
     super(props);
 
     this.state = {
-      manifest: 'http://localhost:8080/iiif/manifest/nezperce.json',
+      manifest: 'http://localhost:8080/iiif/manifest/asotin.json',
     };
   }
 
