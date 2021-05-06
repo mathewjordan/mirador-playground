@@ -5,7 +5,7 @@ import App from './App';
 
 ReactDOM.render(
   <App />,
-  document.getElementById('mirador-playground')
+  document.getElementById('mirador-playground'),
 );
 
 module.hot.accept();

@@ -6,39 +6,86 @@ class App extends Component {
     super(props);
 
     this.state = {
-      manifest: 'http://localhost:8080/iiif/manifest/asotin.json',
+      workspace: null,
+      manifest: null,
     };
   }
 
-  render() {
-    const { manifest } = this.state;
+  componentDidMount() {
 
-    return (
-      <div className="container">
-        <Mirador
-          config={{
-            id: 'mirador',
-            window: {
-              allowFullscreen: false,
-              sideBarPanel: 'info',
-              hideWindowTitle: true,
-              sideBarOpen: true,
-              highlightAllAnnotations: true,
-              forceDrawAnnotations: true,
-            },
-            windows: [
-              {
-                loadedManifest: manifest,
+    const windowUrl = window.location.search;
+    const params = new URLSearchParams(windowUrl);
+
+    if (params.get('manifest')) {
+      this.setState({
+        workspace: false,
+        manifest: params.get('manifest')
+      })
+    } else {
+      this.setState({
+        workspace: true
+      })
+    }
+
+  }
+
+  render() {
+    const { workspace, manifest } = this.state;
+
+    console.log(workspace)
+
+    if (workspace === true) {
+      return (
+        <div className="container">
+          <Mirador
+            config={{
+              id: 'mirador',
+              window: {
+                allowFullscreen: false,
+                sideBarPanel: 'info',
+                hideWindowTitle: true,
+                sideBarOpen: false,
+                highlightAllAnnotations: true,
+                forceDrawAnnotations: true,
               },
-            ],
-            workspaceControlPanel: {
-              enabled: false,
-            },
-          }}
-          plugins={[]}
-        />
-      </div>
-    );
+              workspaceControlPanel: {
+                enabled: true,
+              },
+            }}
+            plugins={[]}
+          />
+        </div>
+      );
+    } else if (workspace === false) {
+      return (
+        <div className="container">
+          <Mirador
+            config={{
+              id: 'mirador',
+              window: {
+                allowFullscreen: false,
+                sideBarPanel: 'info',
+                hideWindowTitle: true,
+                sideBarOpen: false,
+                highlightAllAnnotations: true,
+                forceDrawAnnotations: true,
+              },
+              windows: [
+                {
+                  loadedManifest: manifest,
+                },
+              ],
+              workspaceControlPanel: {
+                enabled: false,
+              },
+            }}
+            plugins={[]}
+          />
+        </div>
+      );
+    } else {
+      return  null
+    }
   }
 }
 
