@@ -60,7 +60,7 @@ class App extends Component {
                 },
               ],
               workspaceControlPanel: {
-                enabled: false,
+                enabled: true,
               },
             }}
             plugins={[]}
