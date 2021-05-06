@@ -40,14 +40,6 @@ class App extends Component {
           <Mirador
             config={{
               id: 'mirador',
-              window: {
-                allowFullscreen: false,
-                sideBarPanel: 'info',
-                hideWindowTitle: true,
-                sideBarOpen: false,
-                highlightAllAnnotations: true,
-                forceDrawAnnotations: true,
-              },
               workspaceControlPanel: {
                 enabled: true,
               },
@@ -62,14 +54,6 @@ class App extends Component {
           <Mirador
             config={{
               id: 'mirador',
-              window: {
-                allowFullscreen: false,
-                sideBarPanel: 'info',
-                hideWindowTitle: true,
-                sideBarOpen: false,
-                highlightAllAnnotations: true,
-                forceDrawAnnotations: true,
-              },
               windows: [
                 {
                   loadedManifest: manifest,
