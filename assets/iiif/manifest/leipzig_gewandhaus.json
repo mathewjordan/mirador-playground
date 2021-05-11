@@ -1,0 +1,115 @@
+{
+  "@context": [
+    "https://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://digital.lib.utk.edu/static/iiif/leipzig_gewandhaus.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Gewandhaus, Leipzig (Gropius) AM F 7544.jpg"
+    ]
+  },
+  "summary": {
+    "en": [
+      "Gropius & Schmieden , Gewandhaus, Leipzig: Ansicht. Foto auf Karton, 13,8 x 20,1 cm (inkl. Scanrand). Architekturmuseum der Technischen Universität Berlin Inv. Nr. F 7544."
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Date"
+        ]
+      },
+      "value": {
+        "en": [
+          "1884"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Author"
+        ]
+      },
+      "value": {
+        "en": [
+          "Martin Gropius (Pläne), Heino Schmieden (Pläne & Ausführung)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Source"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://commons.wikimedia.org/wiki/File:Gewandhaus,_Leipzig_(Gropius)_AM_F_7544.jpg",
+          "http://architekturmuseum.ub.tu-berlin.de"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/CNE/1.0/",
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "en": [
+        "Public Domain"
+      ]
+    }
+  },
+  "thumbnail": [
+    {
+      "id": "https://zoomviewer.toolforge.org/iipsrv.fcgi/?iiif=cache/3d71f5798ff5dcc9a6048682e2ccd6d5.tif/full/200,200/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "width": 200,
+      "height": 200
+    }
+  ],
+  "items": [
+    {
+      "id": "https://digital.lib.utk.edu/static/iiif/leipzig_gewandhaus/canvas",
+      "type": "Canvas",
+      "width": 4000,
+      "height": 2545,
+      "items": [
+        {
+          "id": "https://digital.lib.utk.edu/static/iiif/leipzig_gewandhaus/canvas/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "@context": "https://iiif.io/api/presentation/3/context.json",
+              "id": "https://digital.lib.utk.edu/static/iiif/leipzig_gewandhaus/canvas/page/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": [
+                {
+                  "id": "https://zoomviewer.toolforge.org/iipsrv.fcgi/?iiif=cache/3d71f5798ff5dcc9a6048682e2ccd6d5.tif/full/full/0/default.jpg",
+                  "type": "Image",
+                  "width": 4000,
+                  "height": 2545,
+                  "format": "image/jpeg",
+                  "service": {
+                    "@id": "https://zoomviewer.toolforge.org/iipsrv.fcgi/?iiif=cache/3d71f5798ff5dcc9a6048682e2ccd6d5.tif",
+                    "@type": "http://iiif.io/api/image/2/context.json",
+                    "profile": "http://iiif.io/api/image/2/level1.json"
+                  }
+                }
+              ],
+              "target": "https://digital.lib.utk.edu/static/iiif/leipzig_gewandhaus/canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
