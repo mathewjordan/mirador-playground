@@ -1,0 +1,234 @@
+{
+  "@context": [
+    "https://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://digital.lib.utk.edu/assemble/manifest/pcard00/100204",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Chimney Tops, Great Smoky Mountains National Park"
+    ]
+  },
+  "summary": {
+    "en": [
+      "Chimney Tops, Alt. 4,755 ft. The \"Chimneys\" in the Tennessee section of the Great Smoky Mountains National Park test the endurance of hardened mountain climbers. The ruggedness cannot be appreciated until one climbs to the top. Excellent views of Little Pigeon Gorge, the Loop-Over and many other awe-inspiring scenes may be seen from the tops."
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Date"
+        ]
+      },
+      "value": {
+        "en": [
+          "Undated"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Form"
+        ]
+      },
+      "value": {
+        "en": [
+          "still image"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Topic"
+        ]
+      },
+      "value": {
+        "en": [
+          "Chimney Tops"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "en": [
+        "University of Tennessee, Knoxville. Libraries"
+      ]
+    }
+  },
+  "provider": [
+    {
+      "id": "https://www.lib.utk.edu/about/",
+      "type": "Agent",
+      "label": {
+        "en": [
+          "University of Tennessee, Knoxville. Libraries"
+        ]
+      },
+      "homepage": [
+        {
+          "id": "https://www.lib.utk.edu/",
+          "type": "Text",
+          "label": {
+            "en": [
+              "University of Tennessee Libraries Homepage"
+            ]
+          },
+          "format": "text/html"
+        }
+      ],
+      "logo": [
+        {
+          "id": "https://utkdigitalinitiatives.github.io/iiif-level-0/ut_libraries_centered/full/full/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://digital.lib.utk.edu/iiif/2/collections~islandora~object~100204%3A6~datastream~JP2/info.json",
+      "type": "Image",
+      "format": "image/jpeg",
+      "width": 200,
+      "height": 200
+    }
+  ],
+  "items": [
+    {
+      "id": "https://digital.lib.utk.edu/assemble/manifest/pcard00/100204/canvas/1",
+      "type": "Canvas",
+      "width": 1489,
+      "height": 2320,
+      "items": [
+        {
+          "id": "https://digital.lib.utk.edu/assemble/manifest/pcard00/100204/canvas/1/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "@context": "https://iiif.io/api/presentation/3/context.json",
+              "id": "https://digital.lib.utk.edu/assemble/manifest/pcard00/100204/canvas/1/painting/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": [
+                {
+                  "id": "https://digital.lib.utk.edu/iiif/2/collections~islandora~object~100204%3A6~datastream~OBJ/full/full/0/default.jpg",
+                  "type": "Image",
+                  "width": 6619,
+                  "height": 5152,
+                  "format": "image/jpeg",
+                  "service": {
+                    "@id": "https://digital.lib.utk.edu/iiif/2/collections~islandora~object~100204%3A6~datastream~JP2",
+                    "@type": "http://iiif.io/api/image/2/context.json",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              ],
+              "target": "https://digital.lib.utk.edu/assemble/manifest/pcard00/100204/canvas"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "@context": "https://iiif.io/api/presentation/3/context.json",
+          "id": "https://digital.lib.utk.edu/assemble/manifest/pcard00/100204/canvas/1/annotations",
+          "type": "AnnotationPage",
+          "label": "University of Tennessee Libraries Homepage",
+          "items": [
+            {
+              "id": "https://digital.lib.utk.edu/assemble/manifest/pcard00/100204/canvas/1/annotations/1",
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "type": "FragmentSelector",
+                "language": "en",
+                "value": "Due to to vegetation growth, this indicates a late spring rendition."
+              },
+              "target": "https://digital.lib.utk.edu/assemble/manifest/pcard00/100204/canvas/1#xywh=400,150,800,500"
+            },
+            {
+              "id": "https://digital.lib.utk.edu/assemble/manifest/pcard00/100204/canvas/1/annotations/2",
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "type": "FragmentSelector",
+                "language": "en",
+                "value": "A hiker can be seen looking into the distance."
+              },
+              "target": "https://digital.lib.utk.edu/assemble/manifest/pcard00/100204/canvas/1#xywh=800,1600,600,500"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://digital.lib.utk.edu/assemble/manifest/pcard00/100204/canvas/2",
+      "type": "Canvas",
+      "width": 2320,
+      "height": 1476,
+      "items": [
+        {
+          "id": "https://digital.lib.utk.edu/assemble/manifest/pcard00/100204/canvas/2/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "@context": "https://iiif.io/api/presentation/3/context.json",
+              "id": "https://digital.lib.utk.edu/assemble/manifest/pcard00/100204/canvas/2/painting/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": [
+                {
+                  "id": "https://digital.lib.utk.edu/iiif/2/collections~islandora~object~100204%3A5~datastream~OBJ/full/full/0/default.jpg",
+                  "type": "Image",
+                  "width": 6619,
+                  "height": 5152,
+                  "format": "image/jpeg",
+                  "service": {
+                    "@id": "https://digital.lib.utk.edu/iiif/2/collections~islandora~object~100204%3A5~datastream~JP2",
+                    "@type": "http://iiif.io/api/image/2/context.json",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              ],
+              "target": "https://digital.lib.utk.edu/assemble/manifest/pcard00/100204/canvas"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "@context": "https://iiif.io/api/presentation/3/context.json",
+          "id": "https://digital.lib.utk.edu/assemble/manifest/pcard00/100204/canvas/2/annotations",
+          "type": "AnnotationPage",
+          "label": "University of Tennessee Libraries Homepage",
+          "items": [
+            {
+              "id": "https://digital.lib.utk.edu/assemble/manifest/pcard00/100204/canvas/2/annotations/1",
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "type": "FragmentSelector",
+                "language": "en",
+                "value": "Some old type slab text describing the Chimney Tops."
+              },
+              "target": "https://digital.lib.utk.edu/assemble/manifest/pcard00/100204/canvas/2#xywh=140,25,1000,420"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
