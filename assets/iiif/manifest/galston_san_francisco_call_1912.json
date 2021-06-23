@@ -2,11 +2,11 @@
   "@context": [
     "https://iiif.io/api/presentation/3/context.json"
   ],
-  "id": "https://digital.lib.utk.edu/static/iiif/vienna_1880.json",
+  "id": "https://digital.lib.utk.edu/static/iiif/galston_san_francisco_call_1912.json",
   "type": "Manifest",
   "label": {
     "en": [
-      "BERMANN(1880)_p1246_Wien_im_Jahre_1880.jpg"
+      "The San Francisco call. [volume], December 20, 1912, Page 5, Image 5"
     ]
   },
   "summary": {
@@ -23,19 +23,7 @@
       },
       "value": {
         "en": [
-          "1880"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "Author"
-        ]
-      },
-      "value": {
-        "en": [
-          "Bermann, Moriz"
+          "December 20, 1912"
         ]
       }
     },
@@ -47,8 +35,8 @@
       },
       "value": {
         "en": [
-          "https://commons.wikimedia.org/wiki/File:BERMANN(1880)_p1246_Wien_im_Jahre_1880.jpg",
-          "Image extracted from page 1246 of Alt- und Neu-Wien. Geschichte der Kaiserstadt und ihrer Umgebungen, by BERMANN, Moriz. Original held and digitised by the British Library."
+          "https://chroniclingamerica.loc.gov/lccn/sn85066387/1912-12-20/ed-1/seq-5/",
+          "University of California, Riverside; Riverside, CA"
         ]
       }
     }
@@ -62,13 +50,13 @@
     },
     "value": {
       "en": [
-        "British Library"
+        "The San Francisco call. [volume] (San Francisco [Calif.]), 20 Dec. 1912. Chronicling America: Historic American Newspapers. Lib. of Congress."
       ]
     }
   },
   "thumbnail": [
     {
-      "id": "https://zoomviewer.toolforge.org/iipsrv.fcgi/?iiif=cache/044385e95a0b27741989a666cb50aacb.tif/full/200,200/0/default.jpg",
+      "id": "https://chroniclingamerica.loc.gov/iiif/2/curiv_elderwood_ver02%2Fdata%2Fsn85066387%2F00280768480%2F1912122001%2F0097.jp2/full/200,200/0/default.jpg",
       "type": "Image",
       "format": "image/jpeg",
       "width": 200,
@@ -77,35 +65,35 @@
   ],
   "items": [
     {
-      "id": "https://digital.lib.utk.edu/static/iiif/vienna_1880/canvas",
+      "id": "https://digital.lib.utk.edu/static/iiif/galston_san_francisco_call_1912/canvas",
       "type": "Canvas",
-      "width": 3130,
-      "height": 2272,
+      "width": 7039,
+      "height": 9543,
       "items": [
         {
-          "id": "https://digital.lib.utk.edu/static/iiif/vienna_1880/canvas/page",
+          "id": "https://digital.lib.utk.edu/static/iiif/galston_san_francisco_call_1912/canvas/page",
           "type": "AnnotationPage",
           "items": [
             {
               "@context": "https://iiif.io/api/presentation/3/context.json",
-              "id": "https://digital.lib.utk.edu/static/iiif/vienna_1880/canvas/page/annotation",
+              "id": "https://digital.lib.utk.edu/static/iiif/galston_san_francisco_call_1912/canvas/page/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": [
                 {
-                  "id": "https://zoomviewer.toolforge.org/iipsrv.fcgi/?iiif=cache/044385e95a0b27741989a666cb50aacb.tif/full/full/0/default.jpg",
+                  "id": "https://chroniclingamerica.loc.gov/iiif/2/curiv_elderwood_ver02%2Fdata%2Fsn85066387%2F00280768480%2F1912122001%2F0097.jp2/full/full/0/default.jpg",
                   "type": "Image",
-                  "width": 3130,
-                  "height": 2272,
+                  "width": 7039,
+                  "height": 9543,
                   "format": "image/jpeg",
                   "service": {
-                    "@id": "https://zoomviewer.toolforge.org/iipsrv.fcgi/?iiif=cache/044385e95a0b27741989a666cb50aacb.tif",
+                    "@id": "https://chroniclingamerica.loc.gov/iiif/2/curiv_elderwood_ver02%2Fdata%2Fsn85066387%2F00280768480%2F1912122001%2F0097.jp2",
                     "@type": "http://iiif.io/api/image/2/context.json",
                     "profile": "http://iiif.io/api/image/2/level1.json"
                   }
                 }
               ],
-              "target": "https://digital.lib.utk.edu/static/iiif/vienna_1880/canvas"
+              "target": "https://digital.lib.utk.edu/static/iiif/galston_san_francisco_call_1912/canvas"
             }
           ]
         }
