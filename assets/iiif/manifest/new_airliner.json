@@ -5,6 +5,18 @@
   "label": {
     "en": ["New Airliner, 1946/02/21"]
   },
+  "summary": {
+    "en": [
+      "Douglas DC-6 luxury airliner tested in Long Beach, interior views for 56 passengers, converted into sleeping compartments for 26 passengers, at 20,000 ft."
+    ]
+  },
+  "rights": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "requiredStatement": {
+    "label": { "en": ["Attribution"] },
+    "value": {
+      "en": ["Wikimedia Commons"]
+    }
+  },
   "items": [
     {
       "id": "https://gist.github.com/mathewjordan/2c722f351cff049999e55a29f4746a47/raw/a47448bb016774563f630a76676110049ec9eeb6/new_airliner/canvas/1",
@@ -44,6 +56,23 @@
               }
             }
           ]
+        },
+        {
+          "id": "https://gist.github.com/mathewjordan/2c722f351cff049999e55a29f4746a47/raw/a47448bb016774563f630a76676110049ec9eeb6/new_airliner/canvas/0/page/annotation_page/1/annotation/2",
+          "type": "Annotation",
+          "motivation": "supplementing",
+          "body": [
+            {
+              "id": "https://commons.wikimedia.org/wiki/TimedText:1946-02-21_New_Airliner.ogv.en.srt",
+              "type": "Text",
+              "format": "text/vtt",
+              "label": {
+                "en": ["en"]
+              },
+              "language": "en"
+            }
+          ],
+          "target": "https://gist.github.com/mathewjordan/2c722f351cff049999e55a29f4746a47/raw/a47448bb016774563f630a76676110049ec9eeb6/new_airliner/canvas/1"
         }
       ]
     }
