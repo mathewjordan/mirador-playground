@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://gist.github.com/mathewjordan/2c722f351cff049999e55a29f4746a47/raw/a47448bb016774563f630a76676110049ec9eeb6/new_airliner.json",
+  "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/new_airliner.json",
   "type": "Manifest",
   "label": {
     "en": ["New Airliner, 1946/02/21"]
@@ -19,7 +19,7 @@
   },
   "items": [
     {
-      "id": "https://gist.github.com/mathewjordan/2c722f351cff049999e55a29f4746a47/raw/a47448bb016774563f630a76676110049ec9eeb6/new_airliner/canvas/1",
+      "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/new_airliner/canvas/1",
       "type": "Canvas",
       "width": 400,
       "height": 300,
@@ -38,14 +38,14 @@
       ],
       "items": [
         {
-          "id": "https://gist.github.com/mathewjordan/2c722f351cff049999e55a29f4746a47/raw/a47448bb016774563f630a76676110049ec9eeb6/new_airliner/canvas/1/annotation_page/1",
+          "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/new_airliner/canvas/1/annotation_page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://gist.github.com/mathewjordan/2c722f351cff049999e55a29f4746a47/raw/a47448bb016774563f630a76676110049ec9eeb6/new_airliner/canvas/1/annotation_page/1/annotation/1",
+              "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/new_airliner/canvas/1/annotation_page/1/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "https://gist.github.com/mathewjordan/2c722f351cff049999e55a29f4746a47/raw/a47448bb016774563f630a76676110049ec9eeb6/new_airliner/canvas/1",
+              "target": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/new_airliner/canvas/1",
               "body": {
                 "id": "https://upload.wikimedia.org/wikipedia/commons/6/6b/1946-02-21_New_Airliner.ogv",
                 "type": "Video",
@@ -58,12 +58,12 @@
           ]
         },
         {
-          "id": "https://gist.github.com/mathewjordan/2c722f351cff049999e55a29f4746a47/raw/a47448bb016774563f630a76676110049ec9eeb6/new_airliner/canvas/0/page/annotation_page/1/annotation/2",
+          "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/new_airliner/canvas/1/page/annotation_page/1/annotation/2",
           "type": "Annotation",
           "motivation": "supplementing",
           "body": [
             {
-              "id": "https://commons.wikimedia.org/wiki/TimedText:1946-02-21_New_Airliner.ogv.en.srt",
+              "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/supplementing/new_airliner_en.vtt",
               "type": "Text",
               "format": "text/vtt",
               "label": {
@@ -72,7 +72,7 @@
               "language": "en"
             }
           ],
-          "target": "https://gist.github.com/mathewjordan/2c722f351cff049999e55a29f4746a47/raw/a47448bb016774563f630a76676110049ec9eeb6/new_airliner/canvas/1"
+          "target": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/new_airliner/canvas/1"
         }
       ]
     }
