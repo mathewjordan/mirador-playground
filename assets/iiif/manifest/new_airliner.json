@@ -54,25 +54,25 @@
                 "width": 300,
                 "duration": 102
               }
+            },
+            {
+              "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/new_airliner/canvas/1/page/annotation_page/1/annotation/2",
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": [
+                {
+                  "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/supplementing/new_airliner_en.vtt",
+                  "type": "Text",
+                  "format": "text/vtt",
+                  "label": {
+                    "en": ["en"]
+                  },
+                  "language": "en"
+                }
+              ],
+              "target": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/new_airliner/canvas/1"
             }
           ]
-        },
-        {
-          "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/new_airliner/canvas/1/page/annotation_page/1/annotation/2",
-          "type": "Annotation",
-          "motivation": "supplementing",
-          "body": [
-            {
-              "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/supplementing/new_airliner_en.vtt",
-              "type": "Text",
-              "format": "text/vtt",
-              "label": {
-                "en": ["en"]
-              },
-              "language": "en"
-            }
-          ],
-          "target": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/new_airliner/canvas/1"
         }
       ]
     }
