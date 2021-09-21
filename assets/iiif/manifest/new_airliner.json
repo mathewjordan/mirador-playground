@@ -71,6 +71,40 @@
                 }
               ],
               "target": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/new_airliner/canvas/1"
+            },
+            {
+              "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/new_airliner/canvas/1/page/annotation_page/1/annotation/3",
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": [
+                {
+                  "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/supplementing/new_airliner_es.vtt",
+                  "type": "Text",
+                  "format": "text/vtt",
+                  "label": {
+                    "en": ["es"]
+                  },
+                  "language": "es"
+                }
+              ],
+              "target": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/new_airliner/canvas/1"
+            },
+            {
+              "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/new_airliner/canvas/1/page/annotation_page/1/annotation/4",
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": [
+                {
+                  "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/supplementing/new_airliner_fr.vtt",
+                  "type": "Text",
+                  "format": "text/vtt",
+                  "label": {
+                    "en": ["fr"]
+                  },
+                  "language": "fr"
+                }
+              ],
+              "target": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/new_airliner/canvas/1"
             }
           ]
         }
