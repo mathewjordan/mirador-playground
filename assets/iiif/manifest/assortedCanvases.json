@@ -113,10 +113,10 @@
     {
       "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/assortedCanvases/canvas/2",
       "type": "Canvas",
-      "width": 400,
-      "height": 300,
+      "width": 15552,
+      "height": 13562,
       "label": {
-        "en": ["Image canvas should maybe be in aux?"]
+        "en": ["Novissima et perfectissima Africæ descriptio"]
       },
       "items": [
         {
@@ -129,11 +129,16 @@
               "motivation": "painting",
               "target": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/assortedCanvases/canvas/2",
               "body": {
-                "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/1946-02-21_New_Airliner.ogv/120px--1946-02-21_New_Airliner.ogv.jpg",
+                "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/df733a38-54b1-494c-a1a5-0aaaba2f643d/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 400,
-                "width": 300
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/df733a38-54b1-494c-a1a5-0aaaba2f643d"
+                },
+                "height": 15552,
+                "width": 13562
               }
             }
           ]
