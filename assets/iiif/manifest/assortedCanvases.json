@@ -193,6 +193,69 @@
           ]
         }
       ]
+    },
+    {
+      "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/assortedCanvases/canvas/4",
+      "type": "Canvas",
+      "width": 400,
+      "height": 300,
+      "duration": 102,
+      "label": {
+        "en": ["Streaming Media .m3u8"]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/df733a38-54b1-494c-a1a5-0aaaba2f643d/full/!300,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "service": [{
+            "profile": "http://iiif.io/api/image/2/level2.json",
+            "@type": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/df733a38-54b1-494c-a1a5-0aaaba2f643d"
+          }],
+          "height": 300,
+          "width": 262
+        }
+      ],
+      "items": [
+        {
+          "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/assortedCanvases/canvas/4/annotation_page/4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/assortedCanvases/canvas/4/annotation_page/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/assortedCanvases/canvas/4",
+              "body": {
+                "id": "https://upload.wikimedia.org/wikipedia/commons/6/6b/1946-02-21_New_Airliner.ogv",
+                "type": "Video",
+                "format": "video/ogg",
+                "height": 400,
+                "width": 300,
+                "duration": 102
+              }
+            },
+            {
+              "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/assortedCanvases/canvas/4/page/annotation_page/1/annotation/2",
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": [
+                {
+                  "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/supplementing/new_airliner_en.vtt",
+                  "type": "Text",
+                  "format": "text/vtt",
+                  "label": {
+                    "en": ["en"]
+                  },
+                  "language": "en"
+                }
+              ],
+              "target": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/assortedCanvases/canvas/4"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
