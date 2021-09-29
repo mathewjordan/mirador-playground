@@ -123,11 +123,11 @@
           "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/df733a38-54b1-494c-a1a5-0aaaba2f643d/full/!300,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
-          "service": {
+          "service": [{
             "profile": "http://iiif.io/api/image/2/level2.json",
             "@type": "http://iiif.io/api/image/2/context.json",
             "@id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/df733a38-54b1-494c-a1a5-0aaaba2f643d"
-          },
+          }],
           "height": 300,
           "width": 262
         }
@@ -146,11 +146,11 @@
                 "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/df733a38-54b1-494c-a1a5-0aaaba2f643d/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "service": {
+                "service": [{
                   "profile": "http://iiif.io/api/image/2/level2.json",
-                  "@type": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/df733a38-54b1-494c-a1a5-0aaaba2f643d"
-                },
+                  "type": "http://iiif.io/api/image/2/context.json",
+                  "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/df733a38-54b1-494c-a1a5-0aaaba2f643d"
+                }],
                 "width": 15552,
                 "height": 13562
               }
