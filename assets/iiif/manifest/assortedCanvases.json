@@ -42,8 +42,8 @@
                 "format": "image/jpeg",
                 "service": [{
                   "profile": "http://iiif.io/api/image/2/level2.json",
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/f2f0ca5d-cbb3-40b0-81e3-1d5be2079016"
+                  "type": "http://iiif.io/api/image/2/context.json",
+                  "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/f2f0ca5d-cbb3-40b0-81e3-1d5be2079016"
                 }],
                 "width": 5120,
                 "height": 4238
