@@ -3,11 +3,11 @@
   "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/assortedCanvases.json",
   "type": "Manifest",
   "label": {
-    "en": ["Assorted Canvases"]
+    "en": ["Assorted canvases for testing nulib/react-media-player"]
   },
   "summary": {
     "en": [
-      "Douglas DC-6 luxury airliner tested in Long Beach, interior views for 56 passengers, converted into sleeping compartments for 26 passengers, at 20,000 ft."
+      "Integer non fringilla massa, ac tristique ipsum. Quisque imperdiet malesuada magna, id congue augue semper vitae. Etiam nec eleifend elit, vel pharetra velit. Donec facilisis augue eget nisi convallis, vel fermentum dolor tincidunt. "
     ]
   },
   "rights": "http://rightsstatements.org/vocab/NoC-NC/1.0/",
@@ -24,7 +24,7 @@
       "width": 5120,
       "height": 4238,
       "label": {
-        "en": ["Dancing to Restore an Elipsed Moon - Qágyuhl"]
+        "en": ["Image canvas without thumbnail"]
       },
       "items": [
         {
@@ -60,7 +60,7 @@
       "height": 300,
       "duration": 102,
       "label": {
-        "en": ["New Airliner - VP9 240P"]
+        "en": ["Video canvas, non-streaming, with supplementing webVTT"]
       },
       "thumbnail": [
         {
@@ -151,7 +151,7 @@
       "width": 15552,
       "height": 13562,
       "label": {
-        "en": ["Novissima et perfectissima Africæ descriptio"]
+        "en": ["Image canvas with thumbnail"]
       },
       "thumbnail": [
         {
@@ -201,7 +201,7 @@
       "height": 480,
       "duration": 500,
       "label": {
-        "en": ["Streaming Media .m3u8"]
+        "en": ["Video canvas, streaming (.m3u8), with supplementing webVTT"]
       },
       "thumbnail": [
         {
