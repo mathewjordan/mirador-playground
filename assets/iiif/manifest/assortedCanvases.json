@@ -19,6 +19,41 @@
   },
   "items": [
     {
+      "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/assortedCanvases/canvas/0",
+      "type": "Canvas",
+      "width": 5120,
+      "height": 4238,
+      "label": {
+        "en": ["Dancing to Restore an Elipsed Moon - Qágyuhl"]
+      },
+      "items": [
+        {
+          "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/assortedCanvases/canvas/0/annotation_page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/assortedCanvases/canvas/0/annotation_page/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/assortedCanvases/canvas/0",
+              "body": {
+                "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/f2f0ca5d-cbb3-40b0-81e3-1d5be2079016/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/f2f0ca5d-cbb3-40b0-81e3-1d5be2079016"
+                },
+                "width": 5120,
+                "height": 4238
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/assortedCanvases/canvas/1",
       "type": "Canvas",
       "width": 400,
@@ -159,40 +194,5 @@
         }
       ]
     },
-    {
-      "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/assortedCanvases/canvas/3",
-      "type": "Canvas",
-      "width": 5120,
-      "height": 4238,
-      "label": {
-        "en": ["Dancing to Restore an Elipsed Moon - Qágyuhl"]
-      },
-      "items": [
-        {
-          "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/assortedCanvases/canvas/3/annotation_page/1",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/assortedCanvases/canvas/3/annotation_page/1/annotation/1",
-              "type": "Annotation",
-              "motivation": "painting",
-              "target": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/assortedCanvases/canvas/3",
-              "body": {
-                "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/f2f0ca5d-cbb3-40b0-81e3-1d5be2079016/full/max/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "service": {
-                  "profile": "http://iiif.io/api/image/2/level2.json",
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/f2f0ca5d-cbb3-40b0-81e3-1d5be2079016"
-                },
-                "width": 5120,
-                "height": 4238
-              }
-            }
-          ]
-        }
-      ]
-    }
   ]
 }
