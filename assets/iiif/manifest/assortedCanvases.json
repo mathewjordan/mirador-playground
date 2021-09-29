@@ -197,24 +197,24 @@
     {
       "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/assortedCanvases/canvas/4",
       "type": "Canvas",
-      "width": 400,
-      "height": 300,
-      "duration": 102,
+      "width": 720,
+      "height": 480,
+      "duration": 500,
       "label": {
         "en": ["Streaming Media .m3u8"]
       },
       "thumbnail": [
         {
-          "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/df733a38-54b1-494c-a1a5-0aaaba2f643d/full/!300,/0/default.jpg",
+          "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/bca5b88d-7433-4710-96db-e38f1a24e9ae/full/!300,/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "service": [{
             "profile": "http://iiif.io/api/image/2/level2.json",
             "@type": "http://iiif.io/api/image/2/context.json",
-            "@id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/df733a38-54b1-494c-a1a5-0aaaba2f643d"
+            "@id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/bca5b88d-7433-4710-96db-e38f1a24e9ae"
           }],
-          "height": 300,
-          "width": 262
+          "width": 8540,
+          "height": 8714
         }
       ],
       "items": [
@@ -231,9 +231,9 @@
                 "id": "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8",
                 "type": "Video",
                 "format": "video/mp4",
-                "height": 400,
-                "width": 300,
-                "duration": 102
+                "height": 720,
+                "width": 480,
+                "duration": 500
               }
             },
             {
