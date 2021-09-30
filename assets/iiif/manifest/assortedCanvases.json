@@ -155,7 +155,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/df733a38-54b1-494c-a1a5-0aaaba2f643d/full/!300,/0/default.jpg",
+          "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/df733a38-54b1-494c-a1a5-0aaaba2f643d/full/!300,300/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "service": [{
@@ -205,7 +205,7 @@
       },
       "thumbnail": [
         {
-          "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/bca5b88d-7433-4710-96db-e38f1a24e9ae/full/!300,/0/default.jpg",
+          "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/bca5b88d-7433-4710-96db-e38f1a24e9ae/full/!300,300/0/default.jpg",
           "type": "Image",
           "format": "image/jpeg",
           "service": [{
