@@ -67,7 +67,6 @@
       ],
       "annotations": [
         {
-          "@context": "https://iiif.io/api/presentation/3/context.json",
           "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/canvas/1/annotations",
           "type": "AnnotationPage",
           "label": { "en": ["Ægyptus Hodierna"] },
@@ -79,9 +78,42 @@
               "body": {
                 "type": "FragmentSelector",
                 "language": "en",
-                "value": "Lower Egypt."
+                "value": "Egypt"
               },
               "target": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/canvas/1#xywh=3000,750,7500,12000"
+            },
+            {
+              "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/1/annotations/2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "FragmentSelector",
+                "language": "en",
+                "value": "Three philosophs"
+              },
+              "target": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/canvas/1#xywh=400,9150,3000,2500"
+            },
+            {
+              "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/1/annotations/3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "FragmentSelector",
+                "language": "en",
+                "value": "Cities on the Nile"
+              },
+              "target": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/canvas/1#xywh=4000,2150,4000,3500"
+            },
+            {
+              "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/1/annotations/4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "FragmentSelector",
+                "language": "en",
+                "value": "Pyramids"
+              },
+              "target": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/canvas/1#xywh=0,6150,5500,3500"
             }
           ]
         }
