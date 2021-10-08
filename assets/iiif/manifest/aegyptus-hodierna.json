@@ -34,8 +34,8 @@
     {
       "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/canvas/1",
       "type": "Canvas",
-      "width": 4000,
-      "height": 2545,
+      "width": 12300,
+      "height": 14500,
       "items": [
         {
           "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/canvas/1/page",
@@ -70,7 +70,7 @@
           "@context": "https://iiif.io/api/presentation/3/context.json",
           "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/canvas/1/annotations",
           "type": "AnnotationPage",
-          "label": "Tacoma, c. 1890",
+          "label": { "en": ["Ægyptus Hodierna"] },
           "items": [
             {
               "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/1/annotations/1",
@@ -79,53 +79,9 @@
               "body": {
                 "type": "FragmentSelector",
                 "language": "en",
-                "value": "Birds Eye"
+                "value": "Lower Egypt."
               },
-              "target": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/canvas/1#xywh=1398,975,4868,2462"
-            },
-            {
-              "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/1/annotations/2",
-              "type": "Annotation",
-              "motivation": "commenting",
-              "body": {
-                "type": "FragmentSelector",
-                "language": "en",
-                "value": "Tacoma National Bank"
-              },
-              "target": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/canvas/1#xywh=1815,59,1067,959"
-            },
-            {
-              "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/1/annotations/3",
-              "type": "Annotation",
-              "motivation": "commenting",
-              "body": {
-                "type": "FragmentSelector",
-                "language": "en",
-                "value": "Tacoma National Bank at corners of Pacific Ave. and Dock St."
-              },
-              "target": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/canvas/1#xywh=4760,2641,145,148"
-            },
-            {
-              "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/1/annotations/4",
-              "type": "Annotation",
-              "motivation": "commenting",
-              "body": {
-                "type": "FragmentSelector",
-                "language": "en",
-                "value": "Tacoma City Market"
-              },
-              "target": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/canvas/1#xywh=870,3476,1254,720"
-            },
-            {
-              "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/1/annotations/5",
-              "type": "Annotation",
-              "motivation": "commenting",
-              "body": {
-                "type": "FragmentSelector",
-                "language": "en",
-                "value": "Tacoma City Market at corner of 9th St. and Olympia Ave."
-              },
-              "target": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/canvas/1#xywh=4455,2166,367,280"
+              "target": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/canvas/1#xywh=3000,750,7500,12000"
             }
           ]
         }
