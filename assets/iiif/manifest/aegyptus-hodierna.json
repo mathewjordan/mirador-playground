@@ -1,6 +1,6 @@
 {
   "@context": ["https://iiif.io/api/presentation/3/context.json"],
-  "id": "https://iiif.stack.rdc.library.northwestern.edu/iiif/2/03c82fe7-1a08-4849-84ca-5dad9ac844e4/manifest.json",
+  "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/aegyptus-hodierna.json",
   "type": "Manifest",
   "label": {
     "none": [
