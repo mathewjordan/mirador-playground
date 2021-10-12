@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://gist.githubusercontent.com/mathewjordan/455af5dab82853ad51194917874f0476/raw/484ea44206fcb989581ebad148cfae2edf943d35/manifest.json",
+  "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/internationalizedLabels.json",
   "type": "Manifest",
   "label": {
     "en": [
