@@ -162,11 +162,11 @@
                   "width": 4000,
                   "height": 2545,
                   "format": "image/jpeg",
-                  "service": {
+                  "service": [{
                     "@id": "https://digital.lib.utk.edu/iiif/2/collections~islandora~object~tenncities%3A343~datastream~JP2",
                     "@type": "http://iiif.io/api/image/2/context.json",
                     "profile": "http://iiif.io/api/image/2/level2.json"
-                  }
+                  }]
                 }
               ],
               "target": "https://digital.lib.utk.edu/assemble/manifest/tenncities/343/canvas/0"
