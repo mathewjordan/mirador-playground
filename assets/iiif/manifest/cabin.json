@@ -175,18 +175,5 @@
         }
       ]
     }
-  ],
-  "seeAlso": [
-    {
-      "id": "https://digital.lib.utk.edu/collections/islandora/object/tenncities%3A343/datastream/MODS",
-      "type": "Dataset",
-      "label": {
-        "en": [
-          "Bibliographic Description in MODS"
-        ]
-      },
-      "format": "application/xml",
-      "profile": "http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
-    }
   ]
 }
