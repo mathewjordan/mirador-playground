@@ -1,7 +1,5 @@
 {
-  "@context": [
-    "https://iiif.io/api/presentation/3/context.json"
-  ],
+  "@context": "https://iiif.io/api/presentation/3/context.json",
   "id": "https://digital.lib.utk.edu/assemble/manifest/tenncities/343",
   "type": "Manifest",
   "label": {
