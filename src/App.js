@@ -7,7 +7,7 @@ class App extends Component {
 
     this.state = {
       manifest:
-        'http://localhost:8080/iiif/manifest/aegyptus-hodierna.json',
+        'http://localhost:8080/iiif/manifest/grizzly-bear-ferocious.json',
     };
   }
 
