@@ -1,6 +1,6 @@
 {
   "@context": "https://iiif.io/api/presentation/3/context.json",
-  "id": "https://digital.lib.utk.edu/assemble/manifest/tenncities/343",
+  "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/cabin.json",
   "type": "Manifest",
   "label": {
     "en": [
