@@ -114,20 +114,18 @@
               "id": "https://digital.lib.utk.edu/static/iiif/uw-maps-68-tacoma/canvas/1/page/annotation",
               "type": "Annotation",
               "motivation": "painting",
-              "body": [
-                {
-                  "id": "https://digitalcollections.lib.washington.edu/digital/iiif/maps/65/full/full/0/default.jpg",
-                  "type": "Image",
-                  "width": 4590,
-                  "height": 7394,
-                  "format": "image/jpeg",
-                  "service": {
-                    "@id": "https://cdm16786.contentdm.oclc.org/digital/iiif/maps/65/",
-                    "@type": "http://iiif.io/api/image/2/context.json",
-                    "profile": "http://iiif.io/api/image/2/level1.json"
-                  }
+              "body": {
+                "id": "https://digitalcollections.lib.washington.edu/digital/iiif/maps/65/full/full/0/default.jpg",
+                "type": "Image",
+                "width": 4590,
+                "height": 7394,
+                "format": "image/jpeg",
+                "service": {
+                  "@id": "https://cdm16786.contentdm.oclc.org/digital/iiif/maps/65/",
+                  "@type": "http://iiif.io/api/image/2/context.json",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
                 }
-              ],
+              },
               "target": "https://digital.lib.utk.edu/static/iiif/uw-maps-68-tacoma/canvas/1"
             }
           ]
