@@ -1,6 +1,6 @@
 {
   "@context": "https://iiif.io/api/presentation/3/context.json",
-  "id": "http://localhost:8080/iiif/manifest/uw-maps-68-tacoma.json",
+  "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/uw-maps-68-tacoma.json",
   "type": "Manifest",
   "label": {
     "en": ["Tacoma"]
