@@ -3,14 +3,14 @@
   "id": "https://url.to/manifest/minimal.json",
   "type": "Manifest",
   "label": {
-    "none": [ "" ]
+    "none": [ "Untitled" ]
   },
   "items": [
     {
       "id": "https://url.to/manifest/minimal/canvas/1",
       "type": "Canvas",
       "height": 500,
-      "width": 500,
+      "width": 500
     }
   ]
 }
