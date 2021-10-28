@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json",
+  "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/minimal.json",
   "type": "Manifest",
   "label": {
     "none": [
@@ -9,7 +9,7 @@
   },
   "items": [
     {
-      "id": "https://iiif.io/api/cookbook/recipe/0001-mvm-image/canvas/p1",
+      "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/minimal/canvas/1",
       "type": "Canvas"
     }
   ]
