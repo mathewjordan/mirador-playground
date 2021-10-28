@@ -13,8 +13,8 @@
       "type": "Canvas"
       "items": [
         {
-        "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/minimal/canvas/1/p1",
-        "type": "AnnotationPage"
+          "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/minimal/canvas/1/p1",
+          "type": "AnnotationPage"
         }
       ]
     }
