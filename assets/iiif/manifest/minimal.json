@@ -10,7 +10,7 @@
   "items": [
     {
       "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/minimal/canvas/1",
-      "type": "Canvas"
+      "type": "Canvas",
       "items": [
         {
           "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/minimal/canvas/1/p1",
