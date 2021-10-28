@@ -1,13 +1,13 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://url.to/manifest/minimal.json",
+  "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/minimal.json",
   "type": "Manifest",
   "label": {
     "none": [ "Untitled" ]
   },
   "items": [
     {
-      "id": "https://url.to/manifest/minimal/canvas/1",
+      "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/minimal/canvas/1",
       "type": "Canvas",
       "height": 500,
       "width": 500,
