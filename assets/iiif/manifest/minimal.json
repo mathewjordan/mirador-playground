@@ -1,22 +1,16 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/minimal.json",
+  "id": "https://url.to/manifest/minimal.json",
   "type": "Manifest",
   "label": {
-    "none": [
-      ""
-    ]
+    "none": [ "" ]
   },
   "items": [
     {
-      "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/minimal/canvas/1",
+      "id": "https://url.to/manifest/minimal/canvas/1",
       "type": "Canvas",
-      "items": [
-        {
-          "id": "https://raw.githubusercontent.com/mathewjordan/mirador-playground/main/assets/iiif/manifest/minimal/canvas/1/p1",
-          "type": "AnnotationPage"
-        }
-      ]
+      "height": 500,
+      "width": 500,
     }
   ]
 }
